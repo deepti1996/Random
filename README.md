@@ -93,77 +93,8 @@ After dividing the columns on screen we now move forward to embed the video whic
 Embed responsive is a pre-defined class in bootstrap that allows you to embed videos in your HTML Template.
 
 #### Step 6
-We now move to the list part. List in HTML is of 2 types ordered list(<ol></ol>) and unordered list(<ul></ul>).
+We now move to the list part. List in HTML is of 2 types ordered list and unordered list.
 And each list item is placed within <li></li> tags.
-
-<div class="col-md-4">
-  <ul style="list-style-type: none">
-    <li>
-      <div class="media">
-        <div class="media-left media-top">
-          <a href="#">
-            <img class="media-object" src="">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
-        </div>
-      </div>
-    </li>
-    <br>
-    <li>
-      <div class="media">
-        <div class="media-left media-top">
-          <a href="#">
-            <img class="media-object" src="">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
-        </div>
-      </div>
-    </li>
-    <br>
-    <li>
-      <div class="media">
-        <div class="media-left media-top">
-          <a href="#">
-            <img class="media-object" src="">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
-        </div>
-      </div>
-    </li>
-    <br>
-    <li>
-      <div class="media">
-        <div class="media-left media-top">
-          <a href="#">
-            <img class="media-object" src="">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
-        </div>
-      </div>
-    </li>
-    <br>
-    <li>
-      <div class="media">
-        <div class="media-left media-top">
-          <a href="#">
-            <img class="media-object" src="">
-          </a>
-        </div>
-        <div class="media-body">
-          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
-        </div>
-      </div>
-    </li>
-  </ul>
-</div>
 
 
 ![Final Step](.Pictures/Screenshot from 2018-02-07 12:39:32.png)
