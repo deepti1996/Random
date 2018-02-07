@@ -44,7 +44,7 @@ We first need to insert the navigation bar of our project that consists of the a
 <nav id="navbar" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Youtube Clone</a>
+      <a class="navbar-brand" href="#>Youtube Clone</a>
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <form class="navbar-form navbar-right" id="navBarSearchForm">
@@ -94,8 +94,6 @@ Embed responsive is a pre-defined class in bootstrap that allows you to embed vi
 
 #### Step 6
 We now move to the list part. List in HTML is of 2 types ordered list and unordered list.
-And each list item is placed within <li></li> tags.
+And each list item is placed within "li" tags.
 
-
-![Final Step](.Pictures/Screenshot from 2018-02-07 12:39:32.png)
- And there a basic template of your project is ready.
+And there a basic template of your project is ready.
