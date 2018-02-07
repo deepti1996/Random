@@ -21,7 +21,6 @@ To learn more about Bootstrap, refer: https://getbootstrap.com/
 Now to start,
 Bootstrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.
 ```HTML
-
 <!DOCTYPE html>
 <html lang="en">
   ...
@@ -41,11 +40,27 @@ You can easily use the classes of Bootstrap now.
 #### Step 2
 Now within your <body></body> tags,
 We first need to insert the navigation bar of our project that consists of the a simple search bar.
-
+```HTML
+<!DOCTYPE html>
 <nav id="navbar" class="navbar navbar-default">
-    ...
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Youtube Clone</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <form class="navbar-form navbar-right" id="navBarSearchForm">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">
+          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+        </button>
+      </form>
+    </div>
+  </div>
 </nav>
-You can directly insert the navbar code from the tutorial of Bootstrap itself.
+```
+
 #### Step 3
 In this step, we will create a new section.
 Note: In order to make your code user friendly, each and every division tag can be placed with the section tags. And each section tag can be allotted an ID that is similar to the function that part of your UI performs.
@@ -64,11 +79,14 @@ If you are familiar with the youtube UI, on the screen we have two divisions. On
 For the video that is to be played I am going to allot it 8 columns and to the list 4 columns. You can change according to your convenience.
 
 After dividing the columns on screen we now move forward to embed the video which is done as follows:
-
+```HTML
+<div class="col-md-8">
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src=""></iframe>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
   </div>
-
+  <h4>Bohemian Rhapsody | Muppet Music Video | The Muppets</h4>
+</div>
+```
 
 Embed responsive is a pre-defined class in bootstrap that allows you to embed videos in your HTML Template.
 
