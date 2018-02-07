@@ -84,17 +84,16 @@ After dividing the columns on screen we now move forward to embed the video whic
 
 <div class="col-md-8">
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    <iframe class="embed-responsive-item" src=""></iframe>
   </div>
-  <h4>Bohemian Rhapsody | Muppet Music Video | The Muppets</h4>
+  <h4>Title</h4>
 </div>
 
 
 Embed responsive is a pre-defined class in bootstrap that allows you to embed videos in your HTML Template.
 
 #### Step 6
-We now move to the list part.
-List in HTML is of 2 types ordered list(<ol></ol>) and unordered list(<ul></ul>).
+We now move to the list part. List in HTML is of 2 types ordered list(<ol></ol>) and unordered list(<ul></ul>).
 And each list item is placed within <li></li> tags.
 
 <div class="col-md-4">
@@ -103,7 +102,7 @@ And each list item is placed within <li></li> tags.
       <div class="media">
         <div class="media-left media-top">
           <a href="#">
-            <img class="media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/150px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg">
+            <img class="media-object" src="">
           </a>
         </div>
         <div class="media-body">
@@ -116,7 +115,7 @@ And each list item is placed within <li></li> tags.
       <div class="media">
         <div class="media-left media-top">
           <a href="#">
-            <img class="media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/150px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg">
+            <img class="media-object" src="">
           </a>
         </div>
         <div class="media-body">
@@ -129,7 +128,7 @@ And each list item is placed within <li></li> tags.
       <div class="media">
         <div class="media-left media-top">
           <a href="#">
-            <img class="media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/150px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg">
+            <img class="media-object" src="">
           </a>
         </div>
         <div class="media-body">
@@ -142,7 +141,7 @@ And each list item is placed within <li></li> tags.
       <div class="media">
         <div class="media-left media-top">
           <a href="#">
-            <img class="media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/150px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg">
+            <img class="media-object" src="">
           </a>
         </div>
         <div class="media-body">
@@ -155,7 +154,7 @@ And each list item is placed within <li></li> tags.
       <div class="media">
         <div class="media-left media-top">
           <a href="#">
-            <img class="media-object" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Meerkat_%28Suricata_suricatta%29_Tswalu.jpg/150px-Meerkat_%28Suricata_suricatta%29_Tswalu.jpg">
+            <img class="media-object" src="">
           </a>
         </div>
         <div class="media-body">
