@@ -170,4 +170,5 @@ And each list item is placed within "li" tags.
 ![alt text](list.png)
 
 And there a basic template of your project is ready.
+
 ![alt text](final.png "Final UI")
