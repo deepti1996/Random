@@ -166,4 +166,6 @@ And each list item is placed within "li" tags.
   </ul>
 </div>
 ```
+
+![alt text](final.png "Final UI")
 And there a basic template of your project is ready.
