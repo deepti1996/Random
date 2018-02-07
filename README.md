@@ -61,7 +61,7 @@ We first need to insert the navigation bar of our project that consists of the a
   </div>
 </nav>
 ```
-![alt text](nav.png "Final UI")
+![alt text](nav.png)
 
 #### Step 3
 In this step, we will create a new section.
@@ -92,7 +92,7 @@ After dividing the columns on screen we now move forward to embed the video whic
 </div>
 ```
 Embed responsive is a pre-defined class in bootstrap that allows you to embed videos in your HTML Template.
-![alt text](video.png "Final UI")
+![alt text](video.png)
 
 #### Step 6
 We now move to the list part. List in HTML is of 2 types ordered list and unordered list.
@@ -167,7 +167,7 @@ And each list item is placed within "li" tags.
   </ul>
 </div>
 ```
-![alt text](list.png "Final UI")
+![alt text](list.png)
 
 And there a basic template of your project is ready.
 ![alt text](final.png "Final UI")
