@@ -28,13 +28,14 @@ Bootstrap makes use of certain HTML elements and CSS properties that require the
 ```
 
 The folks over at MaxCDN graciously provide CDN support for Bootstrap's CSS and JavaScript. Just use these Bootstrap CDN links within your <head></head> tags.
+```HTML
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+```
 For your JS to work you need to include a jquery file in your template before adding the script of bootstrap.min.js.
-
+```HTML
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+```
 You can easily use the classes of Bootstrap now.
 
 #### Step 2
@@ -64,13 +65,15 @@ We first need to insert the navigation bar of our project that consists of the a
 #### Step 3
 In this step, we will create a new section.
 Note: In order to make your code user friendly, each and every division tag can be placed with the section tags. And each section tag can be allotted an ID that is similar to the function that part of your UI performs.
-
+```HTML
 <section id="layout" class="container-fluid"></section>
+```
 
 #### Step 4
 Now within these section tags we will create our row.
-
+```HTML
 <div class="row"></div>
+```
 
 #### Step 5
 Within this row we now separate the columns we wish to utilise.
@@ -82,7 +85,7 @@ After dividing the columns on screen we now move forward to embed the video whic
 ```HTML
 <div class="col-md-8">
   <div class="embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+    <iframe class="embed-responsive-item" src=""></iframe>
   </div>
   <h4>Bohemian Rhapsody | Muppet Music Video | The Muppets</h4>
 </div>
@@ -93,5 +96,74 @@ Embed responsive is a pre-defined class in bootstrap that allows you to embed vi
 #### Step 6
 We now move to the list part. List in HTML is of 2 types ordered list and unordered list.
 And each list item is placed within "li" tags.
-
+```HTML
+<div class="col-md-4">
+  <ul style="list-style-type: none">
+    <li>
+      <div class="media">
+        <div class="media-left media-top">
+          <a href="#">
+            <img class="media-object" src="">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+        </div>
+      </div>
+    </li>
+    <br>
+    <li>
+      <div class="media">
+        <div class="media-left media-top">
+          <a href="#">
+            <img class="media-object" src="">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+        </div>
+      </div>
+    </li>
+    <br>
+    <li>
+      <div class="media">
+        <div class="media-left media-top">
+          <a href="#">
+            <img class="media-object" src="">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+        </div>
+      </div>
+    </li>
+    <br>
+    <li>
+      <div class="media">
+        <div class="media-left media-top">
+          <a href="#">
+            <img class="media-object" src="">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+        </div>
+      </div>
+    </li>
+    <br>
+    <li>
+      <div class="media">
+        <div class="media-left media-top">
+          <a href="#">
+            <img class="media-object" src="">
+          </a>
+        </div>
+        <div class="media-body">
+          <h4 class="media-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+```
 And there a basic template of your project is ready.
