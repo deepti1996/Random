@@ -20,12 +20,13 @@ To learn more about Bootstrap, refer: https://getbootstrap.com/
 #### Step 1
 Now to start,
 Bootstrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.
+```HTML
 
 <!DOCTYPE html>
 <html lang="en">
   ...
 </html>
-
+```
 
 The folks over at MaxCDN graciously provide CDN support for Bootstrap's CSS and JavaScript. Just use these Bootstrap CDN links within your <head></head> tags.
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -42,37 +43,19 @@ Now within your <body></body> tags,
 We first need to insert the navigation bar of our project that consists of the a simple search bar.
 
 <nav id="navbar" class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#>Youtube Clone</a>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <form class="navbar-form navbar-right" id="navBarSearchForm">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">
-          <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-        </button>
-      </form>
-    </div>
-  </div>
+    ...
 </nav>
-
-
+You can directly insert the navbar code from the tutorial of Bootstrap itself.
 #### Step 3
 In this step, we will create a new section.
 Note: In order to make your code user friendly, each and every division tag can be placed with the section tags. And each section tag can be allotted an ID that is similar to the function that part of your UI performs.
 
-
 <section id="layout" class="container-fluid"></section>
-
 
 #### Step 4
 Now within these section tags we will create our row.
 
 <div class="row"></div>
-
 
 #### Step 5
 Within this row we now separate the columns we wish to utilise.
@@ -82,12 +65,9 @@ For the video that is to be played I am going to allot it 8 columns and to the l
 
 After dividing the columns on screen we now move forward to embed the video which is done as follows:
 
-<div class="col-md-8">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src=""></iframe>
   </div>
-  <h4>Title</h4>
-</div>
 
 
 Embed responsive is a pre-defined class in bootstrap that allows you to embed videos in your HTML Template.
