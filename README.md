@@ -87,7 +87,7 @@ After dividing the columns on screen we now move forward to embed the video whic
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src=""></iframe>
   </div>
-  <h4>Bohemian Rhapsody | Muppet Music Video | The Muppets</h4>
+  <h4>Title of the Video</h4>
 </div>
 ```
 
