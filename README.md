@@ -20,12 +20,12 @@ To learn more about Bootstrap, refer: https://getbootstrap.com/
 #### Step 1
 Now to start,
 Bootstrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.
-**
+
 <!DOCTYPE html>
 <html lang="en">
   ...
 </html>
-**
+
 
 The folks over at MaxCDN graciously provide CDN support for Bootstrap's CSS and JavaScript. Just use these Bootstrap CDN links within your <head></head> tags.
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -40,7 +40,7 @@ You can easily use the classes of Bootstrap now.
 #### Step 2
 Now within your <body></body> tags,
 We first need to insert the navigation bar of our project that consists of the a simple search bar.
-**
+
 <nav id="navbar" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -58,21 +58,21 @@ We first need to insert the navigation bar of our project that consists of the a
     </div>
   </div>
 </nav>
-**
+
 
 #### Step 3
 In this step, we will create a new section.
 Note: In order to make your code user friendly, each and every division tag can be placed with the section tags. And each section tag can be allotted an ID that is similar to the function that part of your UI performs.
 
-**
+
 <section id="layout" class="container-fluid"></section>
-**
+
 
 #### Step 4
 Now within these section tags we will create our row.
-**
+
 <div class="row"></div>
-**
+
 
 #### Step 5
 Within this row we now separate the columns we wish to utilise.
@@ -81,14 +81,14 @@ If you are familiar with the youtube UI, on the screen we have two divisions. On
 For the video that is to be played I am going to allot it 8 columns and to the list 4 columns. You can change according to your convenience.
 
 After dividing the columns on screen we now move forward to embed the video which is done as follows:
-**
+
 <div class="col-md-8">
   <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
   </div>
   <h4>Bohemian Rhapsody | Muppet Music Video | The Muppets</h4>
 </div>
-**
+
 
 Embed responsive is a pre-defined class in bootstrap that allows you to embed videos in your HTML Template.
 
@@ -96,7 +96,7 @@ Embed responsive is a pre-defined class in bootstrap that allows you to embed vi
 We now move to the list part.
 List in HTML is of 2 types ordered list(<ol></ol>) and unordered list(<ul></ul>).
 And each list item is placed within <li></li> tags.
-**
+
 <div class="col-md-4">
   <ul style="list-style-type: none">
     <li>
@@ -165,7 +165,7 @@ And each list item is placed within <li></li> tags.
     </li>
   </ul>
 </div>
-**
+
 
 ![Final Step](.Pictures/Screenshot from 2018-02-07 12:39:32.png)
  And there a basic template of your project is ready.
