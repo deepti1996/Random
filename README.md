@@ -181,7 +181,7 @@ For people who are new to HTML, here are a few lines from the code which you nee
     The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as.
 3. name="viewport" content="width=device-width, initial-scale=1"
     This means that the browser will render the width of the page at the width of its own screen.
-4. Metadata is data about data. The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.
+4. Metadata is data (information) about data. The <meta> tag provides metadata about the HTML document. Metadata will not be displayed on the page, but will be machine parsable.
 
 And there a basic template of your project is ready.
 
