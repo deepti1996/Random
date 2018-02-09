@@ -175,11 +175,17 @@ After completing, your final code should look like this:
 
 For people who are new to HTML, here are a few lines from the code which you need to understand:
 
-1. '''HTML <meta charset="utf-8"> '''
+1. '''HTML
+<meta charset="utf-8">
+'''
     Here, the charset attribute specifies the character encoding for the HTML document.
-2. '''HTML <meta http-equiv="X-UA-Compatible" content="IE=edge">  '''
+2. '''HTML
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  '''
     The X-UA-Compatible meta tag allows web authors to choose what version of Internet Explorer the page should be rendered as.
-3. '''HTML <meta name="viewport" content="width=device-width, initial-scale=1">  '''
+3. '''HTML
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ '''
     This means that the browser will render the width of the page at the width of its own screen.
 
 And there a basic template of your project is ready.
