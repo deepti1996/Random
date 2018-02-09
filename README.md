@@ -42,7 +42,6 @@ You can easily use the classes of Bootstrap now.
 Now within your <body></body> tags,
 We first need to insert the navigation bar of our project that consists of the a simple search bar.
 ```HTML
-<!DOCTYPE html>
 <nav id="navbar" class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -172,3 +171,8 @@ And each list item is placed within "li" tags.
 And there a basic template of your project is ready.
 
 ![alt text](final.png "Final UI")
+
+After completing, your final codes should look like this:
+![alt text](code1.png)
+![alt text](code2.png)
+![alt text](code3.png)
